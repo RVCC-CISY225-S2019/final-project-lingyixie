@@ -4,7 +4,8 @@ Web Dev I Final Project
 This project is an About Me page design.
 
 
-This page includes a personal background, a phote gallery, a fun fact article, a blog article and a contact form.
+
+This page includes a personal background information, a phote gallery, a fun fact article, a blog article and a contact form.
 
 Attributions
 
