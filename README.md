@@ -6,10 +6,10 @@ Web Dev I Final Project
 This project is an About Me page design, which includes a personal background information, a phote gallery, a fun fact article, a blog article and a contact form.
 The basic design ideas behind this website is to provide a responsive web page that runs responsively in multiple layouts. 
 
-The design follows CSS formatting rules.
+### Remark 
+The design of this project follows CSS formatting rules.
 
 ### Attributions
-
 The copyrights of all photos appeared in this website, including the logo, are reserved to Lingyi Xie.
 
 The story article "Why April 1st is Fool's day" is taking from History website (https://www.history.com/topics/holidays/april-fools-day). Copyright reserved to History website.
