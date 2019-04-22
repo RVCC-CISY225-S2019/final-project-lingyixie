@@ -7,7 +7,7 @@ This project is an About Me page design, which includes a personal background in
 
 The basic design ideas behind this website is to provide a responsive personal web page that runs responsively in multiple layouts. 
 
-The contents including the following:
+*The contents including the following:
   1. A header displaying a logo and page title.
   2. A navbar with responsive single page navigation using a <nav> element with links to parts of the page.
   3. A profile section including a profile photo and a bio.
