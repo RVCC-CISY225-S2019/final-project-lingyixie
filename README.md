@@ -6,7 +6,7 @@ Web Dev I Final Project
 This project is an About Me page design, which includes a personal background information, a phote gallery, a fun fact article, a blog article and a contact form.
 The basic design ideas behind this website is to provide a responsive web page that runs responsively in multiple layouts. 
 The contents including the following:
-  a. A header displaying a logo and page title.
+ * a. A header displaying a logo and page title.
   b. A navbar with responsive single page navigation using a <nav> element with links to parts of the page.
   c. A profile section including a profile photo and a bio.
   d. A photo gallery.
