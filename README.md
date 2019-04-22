@@ -8,7 +8,7 @@ This project is an About Me page design, which includes a personal background in
 The basic design ideas behind this website is to provide a responsive personal web page that runs responsively in multiple layouts. 
 
 *The contents including the following:*
-  1. A header displaying a logo and page title.
+  1. A header displaying a logo and page title. 
   2. A navbar with responsive single page navigation using a <nav> element with links to parts of the page.
   3. A profile section including a profile photo and a bio.
   4. A photo gallery.
@@ -17,6 +17,13 @@ The basic design ideas behind this website is to provide a responsive personal w
   7. A contact form allowing readers to send contact message.
   8. A footer that displaying a copyright notice and social icon to GitHub account.
 
+*The styling including the following:*
+  1. Typography: use of font family, font weights, and italic style.
+  2. Color design
+  3. Logo: the logo is designed using Vecteezy tool.
+  4. Layout: responvice design with a fluid layout, flexible images, and media queries.
+  
+  
 ### Remark 
 The design of this project follows CSS formatting rules.
 
