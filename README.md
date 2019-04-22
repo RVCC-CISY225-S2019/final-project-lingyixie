@@ -1,11 +1,13 @@
 # Final Project
 Web Dev I Final Project
 
-### Overal
-This project is an About Me page design.
 
 ### Description
+This project is an About Me page design.
 This page includes a personal background information, a phote gallery, a fun fact article, a blog article and a contact form.
+
+
+The design follows CSS formatting rules.
 
 ### Attributions
 
