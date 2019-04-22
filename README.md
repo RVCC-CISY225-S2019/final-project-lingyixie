@@ -3,9 +3,8 @@ Web Dev I Final Project
 
 
 ### Description
-This project is an About Me page design.
-This page includes a personal background information, a phote gallery, a fun fact article, a blog article and a contact form.
-
+This project is an About Me page design, which includes a personal background information, a phote gallery, a fun fact article, a blog article and a contact form.
+The basic design ideas behind this website is to provide a responsive web page that runs responsively in multiple layouts. 
 
 The design follows CSS formatting rules.
 
