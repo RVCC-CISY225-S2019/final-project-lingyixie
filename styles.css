@@ -145,19 +145,6 @@ footer {
 	}
 
 
-	article,
-	.form-container {
-		grid-template-columns: 1fr 48rem 1fr;
-	}
-
-	blog h1,
-	.blog-body,
-	.form-container h2,
-	form {
-		grid-column: 2/3;
-	}
-
-
 	/*	form */
 
 
