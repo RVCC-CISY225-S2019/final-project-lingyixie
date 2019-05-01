@@ -17,8 +17,8 @@
     <span class="navbar-toggle" id="js-navbar-toggle"> <i id="symbol-toggle" class="fas fa-bars"></i> </span> 
     <a href="#header" class="logo"> 
      <div class="logo-container"> 
-      <img class="logo" src="images/logo-1913689.svg" alt="My Logo" /> 
-      <h1 class="page-title">Web Dev I</h1> 
+      <img class="logo" src="images/Logo.svg" alt="My Logo" /> 
+      <h1 class="page-title">Lingyi Xie</h1> 
      </div> </a> 
     <ul class="main-nav" id="js-menu"> 
      <li> <a href="#main" class="nav-links">Main</a> </li> 
@@ -110,6 +110,29 @@
     <p>In 1996, Taco Bell, the fast-food restaurant chain, duped people when it announced it had agreed to purchase Philadelphia’s Liberty Bell and intended to rename it the Taco Liberty Bell. In 1998, after Burger King advertised a “Left-Handed Whopper,” scores of clueless customers requested the fake sandwich.</p> 
     </div>
    </article> 
+   
+   <article id="blog" class="blog">
+   <div class="blog-body">
+    <h1> A Quick Look at CSS Sprites </h1>
+    <p>According to Chris Coyier in his article “CSS Sprites: What They Are, Why They’re Cool, and How To Use Them” that CSS sprites are a means of combining multiple images into a single image file for use on a website, to help with performance. In short, sprites are big images that are made up of small images. </p>
+    <p>The main advantage of sprites is that it can help to speed up the loading time of a certain page because it will reduce the number of HTTP requests. Since all images are integrated in one sprite, more works needed for modification would be the main disadvantage. Because even one slight change in a single image will affect the position in the sprite. All images’ positions will need to re-adjustfied.</p>
+    <p>We can see sprite as a two- dimensional coordinate axis. Every small images are will be given their coordinates (CSS background-position property) in this axis. To display a certain image, you can use its coordinates to find the exact position to be displayed. </p>
+    <p>For example:</p>
+    <p> .flowers {
+		       Width: 120px;
+         Height: 135px;
+		      Background-position: -5px -10px;
+                	}
+	       .sky {
+	        	Width: 120px;
+          Height: 135px;
+        Background-position: 0 0;
+     } </p>
+     <p>The image flowers will locate at lower right of sky.</p>
+    </div>
+   </article>
+
+    
   </main> 
   <!-- <div class="back-to-top">
         <a href="#">Back to Top</a>
