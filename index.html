@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head> 
-  <title>About Me</title> 
+  <title>Lingyi Xie Personal Page</title> 
   <meta charset="utf-8" /> 
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png" /> 
@@ -33,12 +33,17 @@
   <main id="main" tabindex="-1" class="main"> 
    <section class="hero"> 
     <div class="content"> 
+        <figure>
      <picture> 
       <source media="(min-width: 1024px)" srcset="images/me-lrg.jpg"> 
       <source media="(min-width: 960px)" srcset="images/me-med.jpg"> 
       <source media="(min-width: 640px)" srcset="images/me-small.jpg"> 
       <img class="my-picture" src="images/me-xsmall.jpg" alt="This is a picture of me" /> 
      </picture> 
+        <figcaption>
+       Hi there!
+      </figcaption>
+        </figure>
      <p class="my-name">Lingyi Xie</p> 
      <p class="my-location">Somerset, NJ</p> 
     </div> 
@@ -98,8 +103,8 @@
         </div> --> 
    <article id="story" class="story"> 
    <div class="story-body">
-    <h1>Why April 1st is Fool's day</h1> 
-    <p> Although April Fools’ Day, also called All Fools’ Day, has been celebrated for several centuries by different cultures, its exact origins remain a mystery.</p> 
+    <h1>Why April 1st is Fool's day?</h1> 
+    <p> <span class="firstcharacter">A</span>lthough April Fools’ Day, also called All Fools’ Day, has been celebrated for several centuries by different cultures, its exact origins remain a mystery.</p> 
     <p>Some historians speculate that April Fools’ Day dates back to 1582, when France switched from the Julian calendar to the Gregorian calendar, as called for by the Council of Trent in 1563.</p> 
     <p>People who were slow to get the news or failed to recognize that the start of the new year had moved to January 1 and continued to celebrate it during the last week of March through April 1 became the butt of jokes and hoaxes.</p> 
     <p>These pranks included having paper fish placed on their backs and being referred to as “poisson d’avril” (April fish), said to symbolize a young, easily caught fish and a gullible person.</p> 
@@ -111,23 +116,29 @@
     <p>In 1996, Taco Bell, the fast-food restaurant chain, duped people when it announced it had agreed to purchase Philadelphia’s Liberty Bell and intended to rename it the Taco Liberty Bell. In 1998, after Burger King advertised a “Left-Handed Whopper,” scores of clueless customers requested the fake sandwich.</p> 
     </div>
    </article> 
-   
+      
+     <!-- <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div> --> 
+      
    <article id="blog" class="blog">
    <div class="blog-body">
     <h1> A Quick Look at CSS Sprites </h1>
-    <p>According to Chris Coyier in his article “CSS Sprites: What They Are, Why They’re Cool, and How To Use Them” that CSS sprites are a means of combining multiple images into a single image file for use on a website, to help with performance. In short, sprites are big images that are made up of small images. </p>
+    <p><span class="firstcharacter">A</span>ccording to Chris Coyier in his article “CSS Sprites: What They Are, Why They’re Cool, and How To Use Them” that CSS sprites are a means of combining multiple images into a single image file for use on a website, to help with performance. In short, sprites are big images that are made up of small images. </p>
     <p>The main advantage of sprites is that it can help to speed up the loading time of a certain page because it will reduce the number of HTTP requests. Since all images are integrated in one sprite, more works needed for modification would be the main disadvantage. Because even one slight change in a single image will affect the position in the sprite. All images’ positions will need to re-adjustfied.</p>
     <p>We can see sprite as a two- dimensional coordinate axis. Every small images are will be given their coordinates (CSS background-position property) in this axis. To display a certain image, you can use its coordinates to find the exact position to be displayed. </p>
     <p>For example:</p>
-    <p> .flowers {
-		       Width: 120px;
-         Height: 135px;
-		      Background-position: -5px -10px;
-                	}
-	       .sky {
-	        	Width: 120px;
-          Height: 135px;
-        Background-position: 0 0;
+       <p> .flowers { <br>
+		  <p style="margin-left: 40px">
+              Width: 120px;<br>
+              Height: 135px;<br>
+		      Background-position: -5px -10px;<br>
+              }<br></p>
+	   <p>.sky {<br>
+	       <p style="margin-left: 40px">
+              Width: 120px;<br>
+             Height: 135px;<br>
+              Background-position: 0 0;<br>
      } </p>
      <p>The image flowers will locate at lower right of sky.</p>
     </div>
@@ -174,13 +185,18 @@
        <textarea class="form-control" name="textarea" id="textarea"></textarea> 
       </div> 
       <br /> 
-      <button type="submit">Send Message</button> 
+         <button type="submit">Send Message</button> 
      </fieldset> 
     </form> 
   </section> 
+     
   <footer> 
    <p class="footer">This is my website &copy; Lingyi Xie 2019. </p> 
+      
+          <i class="fab fa-github">Github</i>
   </footer> 
+     
+     
   <!-- <div class="back-to-top">
         <a href="#">Back to Top</a>
     </div> --> 
