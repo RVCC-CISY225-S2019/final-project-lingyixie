@@ -33,3 +33,5 @@ The copyrights of all photos appeared in this website, including the logo, are r
 The story article "Why April 1st is Fool's Day" is taking from History website (https://www.history.com/topics/holidays/april-fools-day). Copyright reserved to History website.
 
 The blog article "A Quick Look at CSS Sprites" is composed by Lingyi Xie with reference to article "CSS Sprites: What They Are, Why They’re Cool, and How To Use Them" written by Chris Coyier (https://css-tricks.com/css-sprites/). 
+
+The Github logo link from FontAwesome (https://fontawesome.com/icons/github?style=brands), all rights reserved to Github.
