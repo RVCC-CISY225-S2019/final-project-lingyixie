@@ -21,14 +21,15 @@ The basic design ideas behind this website is to provide a responsive personal w
   1. Typography: use of font family, font weights, and italic style.
   2. Color design
   3. Logo: the logo is designed using Vecteezy tool.
-  4. Layout: responvice design with a fluid layout, flexible images, and media queries.
+  4. Favicon: the Favicon is based on the Logo image.
+  5. Layout: responvice design with a fluid layout, flexible images, and media queries.
   
   
 ### Remark 
 The design of this project follows CSS formatting rules.
 
 ### Attributions
-The copyrights of all photos appeared in this website, including the logo, are reserved to Lingyi Xie.
+The copyrights of all photos appeared in this website, including the logo and Favicon are reserved to Lingyi Xie.
 
 The story article "Why April 1st is Fool's Day" is taking from History website (https://www.history.com/topics/holidays/april-fools-day). Copyright reserved to History website.
 
